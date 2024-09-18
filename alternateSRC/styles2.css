@@ -35,7 +35,7 @@ body {
   width: 65vw;
   background-color: lightgreen;
   background-repeat: no-repeat;
-  background-image: url(images/bck-2.jpg);
+  background-image: url("../images/bck-2.jpg");
   background-position: center;
   background-size: contain;
   background-color: #10255b;
