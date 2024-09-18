@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XYZ COMPANY</title>
+    <link rel="stylesheet" href="styles2.css" />
+  </head>
+  <body>
+    <div class="left-bar">
+      <div class="image-logo">
+        <img src="images/valo-img.png" class="img-1" width="150px" height="150px" />
+      </div>
+      <div class="sign-option">
+        <form action="#" method="post">
+          <legend id="sign-in">Sign Up</legend>
+          <ul>
+            <!-- First Name and Last Name -->
+            <li id="s1">
+              <input type="text" id="First_Name" placeholder="First Name" name="first_name" required minlength="2">
+              <input type="text" id="Last_Name" placeholder="Last Name" name="last_name" required minlength="2">
+            </li>
+            <!-- Email -->
+            <li id="s3">
+              <input type="email" id="Email" placeholder="Email" name="email" required>
+              <span>(Format: <code>username@riotgames.com</code>)</span>
+            </li>
+            <!-- Password and Confirm Password -->
+            <li id="s2">
+              <input type="password" id="Password" placeholder="Password" name="password" required minlength="6">
+              <input type="password" id="Confirm_Password" placeholder="Confirm Password" name="confirm_password" required minlength="6">
+            </li>
+            <!-- Sign Up Button -->
+            <li>
+              <button type="submit" id="submit">Sign Up</button>
+            </li>
+            <!-- Already a User -->
+            <li>
+              <div class="chk-for-sign-up">
+                Already a user?
+                <span><a href="./index.html">Sign In</a></span>
+              </div>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </div>
+    <div class="right-bar"></div>
+  </body>
+</html>
